@@ -32,6 +32,9 @@ git pull origin main
 * switch to your own branch
 git merge main
 
+8. Reverese the branch to the previous commit
+git reset HEAD~1
+
 
 ### To recreate the same virtual enviromment for everybody
 1. Create your own virtual enviromment
