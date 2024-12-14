@@ -1,0 +1,42 @@
+### Git 
+1. To get the repository 
+git clone https://github.com/JustinLimChunKiat/cyber-security-tool.git
+cd cyber-securtiy-tools
+
+2. Set Up Your Identity and verify
+git config --global user.name "Your Name"
+git config --global user.email "your-email@example.com"
+git config --list
+
+3. Switching between branches
+git checkout [branch-name]
+* git branch (Check which branhc youre in. Make sure youre in youre branch, DO NOT WORK IN THE MAIN BRANCH)
+
+4. Add changes to your branch
+git add .
+git commit -m "[your message what you added in]"
+
+5. Push Changes to Remote Repository
+git push origin [branch-name]
+
+6. Merging your changes to the main branch (make sure nobody else is merging)
+* go to github web page to do it
+
+7. Pull changes from main to your own branch (after somebody else merged it into main branch)
+* dont have to do it immediately after the person merge but do it before you merge your own changes into main branch
+* switch to main branch first
+git pull origin main
+* switch to your own branch
+git merge main
+
+
+### To recreate the same virtual enviromment for everybody
+1. Create your own virtual enviromment
+python3 -m venv venv
+
+2. Activate the Virtual Environment:
+Windows: venv\Scripts\activate
+Linus: source venv/bin/activate
+
+3. Install Dependencies
+pip install -r requirements.txt
