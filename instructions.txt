@@ -1,3 +1,7 @@
+##### Always pull and merge from the main to your branch first before pushing your own branch to main
+
+### After you merge, go back to pull from main and merge to your own branch before you continue working on other stuff
+
 ### Git 
 1. To get the repository 
 git clone https://github.com/JustinLimChunKiat/cyber-security-tool.git
@@ -46,3 +50,6 @@ Linus: source venv/bin/activate
 
 3. Install Dependencies
 pip install -r requirements.txt
+
+4. If you add/downloaded new modules renew the requirements.txt
+pip freeze > requirements.txt
